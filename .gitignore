@@ -4,6 +4,7 @@
 /storage/*.key
 /vendor
 **/.docker/log/
+.docker/postgres/data
 .docker/redis/dump.rdb
 .env
 .env.backup
