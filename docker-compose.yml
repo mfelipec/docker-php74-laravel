@@ -2,7 +2,6 @@ version: '3'
 services:
     cofrinhoapp:
         build: .
-        cgroup_parent: marcus
         volumes:
             - ./:/var/www
         depends_on:
@@ -13,7 +12,6 @@ services:
 
     cofrinhoapp-postgres:
         image: postgres:12-alpine
-        cgroup_parent: marcus
         restart: always
         ports:
             - 5432:5432
@@ -26,7 +24,6 @@ services:
 
     cofrinhoapp-redis:
         image: redis:alpine
-        cgroup_parent: marcus
         volumes:
             - ./.docker/redis:/data
         ports:
@@ -34,7 +31,6 @@ services:
 
     cofrinhoapp-nginx:
         build: ./.docker/nginx
-        cgroup_parent: marcus
         restart: always
         ports:
             - 80:80
