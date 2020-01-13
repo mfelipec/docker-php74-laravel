@@ -3,6 +3,8 @@
 /public/storage
 /storage/*.key
 /vendor
+**/.docker/log/
+.docker/redis/dump.rdb
 .env
 .env.backup
 .phpunit.result.cache
