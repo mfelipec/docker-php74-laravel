@@ -83,3 +83,8 @@
 2020/01/13 11:54:49 [emerg] 1#1: host not found in upstream "cofrinhoapp" in /etc/nginx/conf.d/nginx.conf:9
 2020/01/13 11:55:50 [emerg] 1#1: host not found in upstream "cofrinhoapp" in /etc/nginx/conf.d/nginx.conf:9
 2020/01/13 11:56:51 [emerg] 1#1: host not found in upstream "cofrinhoapp" in /etc/nginx/conf.d/nginx.conf:9
+2020/01/13 11:57:52 [emerg] 1#1: host not found in upstream "cofrinhoapp" in /etc/nginx/conf.d/nginx.conf:9
+2020/01/13 11:58:53 [emerg] 1#1: host not found in upstream "cofrinhoapp" in /etc/nginx/conf.d/nginx.conf:9
+2020/01/13 11:59:54 [emerg] 1#1: host not found in upstream "cofrinhoapp" in /etc/nginx/conf.d/nginx.conf:9
+2020/01/13 12:00:55 [emerg] 1#1: host not found in upstream "cofrinhoapp" in /etc/nginx/conf.d/nginx.conf:9
+2020/01/13 12:01:56 [emerg] 1#1: host not found in upstream "cofrinhoapp" in /etc/nginx/conf.d/nginx.conf:9
